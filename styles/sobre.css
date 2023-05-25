@@ -1,0 +1,142 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(54, 54, 54);
+    margin: 0;
+    padding: 15px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    color: white;
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 15px;
+    color: white;
+}
+.nav-bar{
+    color: white;
+    text-decoration: none;
+}
+.nav-bar:hover{
+    color: #5263CC;
+    transition: 0.3s all;
+}
+#inscreva-se-btn{
+    border: 2px solid #5263CC;
+    padding: 10px;
+    border-radius: 20px;
+}
+#inscreva-se-btn:hover{
+    background-color: #5263CC;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.container-sobre-historia{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.title-sobre,
+.title-historia{
+    text-align: center;
+}
+
+.sobre,
+.historia{
+    width: 100%;
+    height: 420px;
+    color: white;
+    max-width: 50%;
+    margin: 5px;
+    text-align: left;
+    border: 2px solid #5263CC;
+    border-radius: 15px;
+    padding: 10px;
+}
+.paragrafo-sobre,
+.paragrafo-historia{
+    padding: 5%;
+    margin: 0;
+}
+
+.box-missao-visao-valores{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.title-missao,
+.title-visao,
+.title-valores{
+    text-align: center;
+}
+.missao-logo,
+.visao-logo,
+.valores-logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.box-missao-title-img,
+.box-visao-title-img,
+.box-valores-title-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.missao,
+.visao,
+.valores{
+    width: 100%;
+    height: 270px;
+    color: white;
+    max-width: 33%;
+    margin: 5px;
+    text-align: left;
+    border: 2px solid #5263CC;
+    border-radius: 15px;
+    padding: 10px;
+}
+.paragrafo-missao,
+.paragrafo-visao,
+.paragrafo-valores{
+    padding: 5%;
+    margin: 0;
+}
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background-color: #5263CC;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    box-shadow: 0 2px 10px white;
+}
